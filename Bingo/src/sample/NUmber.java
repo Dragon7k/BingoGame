@@ -9,12 +9,12 @@ public class NUmber {
     ArrayList<Integer> forShaffle;
     ArrayList<Integer> num;
     NUmber(){
-         forShaffle = new ArrayList(20);
+         forShaffle = new ArrayList(40);
          num = new ArrayList(16);
     }
 
     public void shaffleList(ArrayList list){
-        for(int i=1;i<=20;i++){
+        for(int i=1;i<=40;i++){
             forShaffle.add(i);
         }
         Collections.shuffle(forShaffle);
